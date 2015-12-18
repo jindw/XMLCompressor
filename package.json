@@ -1,0 +1,16 @@
+{
+    "name": "x2j",
+    "version": "0.0.1",
+    "description": "XML in JavaScript Serialization.",
+    "bin": {"bin": "bin/x2j"},
+    "keywords": ["javascript","xml" ],
+	"author": "jindw <jindw@xidea.org> (http://www.xidea.org)",
+    "repository": "git://github.com/jindw/x2j.git",
+    "main": "./lib/index.js",
+    "engines" : { "node" : ">=0.1" },
+    "dependencies": {"xmldom":"*"},
+    "maintainers": [{"name":"jindw","email":"jindw@xidea.org","url":"http://www.xidea.org"}],
+    "contributors": [],
+    "bugs": {"email": "jindw@xidea.org","url": "https://github.com/jindw/x2j/issues"},
+    "licenses": [{"type": "LGPL","url": "http://www.gnu.org/licenses/lgpl.html"}]
+}

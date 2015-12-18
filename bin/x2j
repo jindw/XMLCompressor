@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var args = process.argv.concat();
+
+var exec = args.shift();
+var script = args.shift();
+require('../lib/cmd').run(args);
